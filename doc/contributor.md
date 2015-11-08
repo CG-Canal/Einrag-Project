@@ -1,4 +1,4 @@
-% How the Contributor Should Contribute
+# How the Contributor Should Contribute
 
-# I : Branching
+## 1. Branching
 
