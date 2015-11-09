@@ -1,0 +1,14 @@
+0,0:
+    pnj: "bobinou"
+    monsters: "lapin"
+    desc: |
+        Vous vous trouvez à l'entrée d'une plaine, dos à la forêt.
+        La plaine s'étend au large, parcourue par une sorte de chemin de terre.
+        Un vielle homme, de petite taille et à la longue barbe se tient vers
+        votre droite.
+
+0,1:
+    pnj: ""
+    monsters: ""
+    desc: |
+        Vous faites face à une énorme paire de nichons.
