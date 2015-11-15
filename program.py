@@ -3,8 +3,8 @@ import sys
 
 import yaml
 
-from gamegui import GameGui
-from gameengine import GameEngine
+from src.gamegui import GameGui
+from src.gameengine import GameEngine
 
 print("[PROG] Program started")
 
