@@ -3,8 +3,8 @@ import sys
 
 import yaml
 
-from src.gamegui import GameGui
-from src.gameengine import GameEngine
+from gamegui import GameGui
+from gameengine import GameEngine
 
 print("[PROG] Program started")
 
@@ -18,10 +18,10 @@ print("[PROG] Initializing the game engine")
 world_yaml = 0
 char_yaml = 0
 
-with open("./data/esrpg.world", 'r') as stream:
+with open("data/esrpg.world", 'r') as stream:
     world_yaml = yaml.load(stream)
 
-with open("./data/eyal.char", 'r') as stream:
+with open("data/eyal.char", 'r') as stream:
     char_yaml = yaml.load(stream)
 
 game_engine = GameEngine(game_gui, world_yaml, char_yaml)

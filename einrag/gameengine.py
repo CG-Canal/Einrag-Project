@@ -1,4 +1,4 @@
-from src.utils.desctype import Desctype
+from utils.desctype import Desctype
 
 
 class GameEngine:

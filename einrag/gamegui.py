@@ -10,7 +10,12 @@ class GameGui(QWidget):
 
 
     def initUI(self):
-        self.myfont = QFont("Source Code Pro", 12, QFont.Bold)
+        fontdb = QFontDatabase()
+        customfont = fontdb.addApplicationFont("data/font/Minecraftia-Regular.ttf")
+        getfont = fontdb.applicationFontFamilies(customfont)[0]
+
+        self.myfont = QFont(getfont, 13)
+        #self.myfont = QFont("Lady_Radical.ttf", 12, QFont.Bold)
 
         self.pal = QPalette()
         self.pal.setColor(QPalette.Base, QColor(10, 10, 10))
