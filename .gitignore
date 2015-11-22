@@ -1,6 +1,9 @@
 # Linux related
 *.swap
 
+# Vim related
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
